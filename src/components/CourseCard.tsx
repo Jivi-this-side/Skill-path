@@ -1,5 +1,3 @@
-// src/components/CourseCard.tsx
-
 import type { Course, Country } from "../api/courses";
 
 import { formatPrice } from "../utils/formatters";
