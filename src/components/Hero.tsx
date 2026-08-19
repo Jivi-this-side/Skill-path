@@ -1,5 +1,3 @@
-// src/components/Hero.tsx
-
 export default function Hero() {
   return (
     <section className="hero">
@@ -19,7 +17,6 @@ export default function Hero() {
           Practical courses for people who want to build real skills, make
           things, and keep moving.
         </p>
-
         <a href="#courses" className="hero-button">
           Start learning
           <span>↗</span>
@@ -44,7 +41,6 @@ export default function Hero() {
 
           <div className="feature-bottom">
             <span>Skillpath</span>
-
             <span className="feature-arrow">↗</span>
           </div>
         </div>
