@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const BASE_URL = "https://syncsphere-hiv6.onrender.com";
 export const COURSE_API = `${BASE_URL}/assignment/course-data/`;
 
 export const COUNTRY_API = `${BASE_URL}/assignment/country-code/`;
