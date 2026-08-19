@@ -1,4 +1,4 @@
-export const BASE_URL = "https://syncsphere-hiv6.onrender.com";
+const BASE_URL = import.meta.env.API_BASE_URL;
 
 export const COURSE_API = `${BASE_URL}/assignment/course-data/`;
 
