@@ -1,5 +1,3 @@
-// src/components/Navbar.tsx
-
 import BrandLogo from "./BrandLogo";
 
 export default function Navbar() {
@@ -9,9 +7,7 @@ export default function Navbar() {
 
       <nav className="nav-links">
         <a href="#courses">Courses</a>
-
         <a href="#about">About</a>
-
         <a href="#courses" className="nav-button" aria-label="Explore courses">
           ↗
         </a>
