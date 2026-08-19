@@ -1,5 +1,3 @@
-// src/components/SkeletonCard.tsx
-
 export default function SkeletonCard() {
   return (
     <div className="sk-card">
