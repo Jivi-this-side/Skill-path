@@ -1,5 +1,4 @@
-const BASE_URL = import.meta.env.API_BASE_URL;
-
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 export const COURSE_API = `${BASE_URL}/assignment/course-data/`;
 
 export const COUNTRY_API = `${BASE_URL}/assignment/country-code/`;
