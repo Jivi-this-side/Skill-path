@@ -1,5 +1,3 @@
-// src/utils/formatters.ts
-
 import type { Course, Country } from "../api/courses";
 
 export function formatPrice(course: Course, country: Country): string | null {
@@ -18,7 +16,6 @@ export function formatPrice(course: Course, country: Country): string | null {
       minimumFractionDigits: 2,
     }).format(course.priceUsdCents / 100);
   }
-
   return null;
 }
 
@@ -26,7 +23,6 @@ export function getPriceValue(course: Course, country: Country): number {
   if (country === "IN") {
     return course.pricePaise;
   }
-
   if (country === "US") {
     return course.priceUsdCents;
   }
