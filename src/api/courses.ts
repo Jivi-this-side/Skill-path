@@ -1,5 +1,3 @@
-// src/api/courses.ts
-
 export const BASE_URL = "https://syncsphere-hiv6.onrender.com";
 
 export const COURSE_API = `${BASE_URL}/assignment/course-data/`;
