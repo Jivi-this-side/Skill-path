@@ -1,4 +1,4 @@
-const BASE_URL = process.env.BASE_API_URL || import.meta.env.VITE_API_URL ||
+const BASE_URL = (import.meta.env.VITE_API_URL as string | undefined) ||
   "https://syncsphere-hiv6.onrender.com";
 
 export const COURSE_API = `${BASE_URL}/assignment/course-data/`;
