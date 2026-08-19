@@ -1,12 +1,9 @@
-// src/components/Footer.tsx
-
 import BrandLogo from "./BrandLogo";
 
 export default function Footer() {
   return (
     <footer>
       <BrandLogo footer />
-
       <div className="footer-links">
         <a href="#courses">Courses</a>
         <a href="#about">About</a>
